@@ -1,0 +1,5 @@
+function validar() {
+  res.textContent = email.value.includes("@")
+    ? "E-mail válido"
+    : "E-mail inválido";
+}
